@@ -1,0 +1,161 @@
+@charset "utf-8";
+
+body {
+    background-color: hsl(216, 12%, 8%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    width: auto;
+    line-height: 1.7;
+}
+
+.container {
+    max-width: 23rem;
+    max-height: 31.25rem;
+    background-color: hsl(213, 19%, 18%);
+    padding: 35px;
+    margin-bottom: 2rem;
+    border-radius: 15px;
+    position: absolute;
+    top: 40%;
+    left: 38%;
+    transform: translate(-10%, -30%);
+}
+
+.star {
+    background-color: hsl(213, 19%, 23%);
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+img {
+    width: 20px;
+    height: 20px;
+    justify-content: center;
+    padding-top: 0.8rem;
+}
+
+h1 {
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: 'Outfit', sans-serif;
+    margin-top: 2rem;
+}
+
+p {
+    color: hsl(217, 12%, 63%);
+    font-size: 15px;
+    font-weight: 400;
+    font: 'Outfit', sans-serif;
+}
+
+.btn-select {
+    font-family: 'Outfit', sans-serif;
+    justify-content: space-around;
+}
+
+button {
+    width: 3.125rem;
+    height: 3.125rem;
+    border-radius: 50%;
+    border: none;
+    margin-right: 1.18824rem;
+    cursor: pointer;
+    background: hsl(213, 19%, 23%);
+    color: white;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: hsl(217, 12%, 63%);
+}
+
+button:active {
+    background-color: hsl(25, 97%, 53%);
+}
+
+#submit {
+    width: 345px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 1.5rem;
+    background: white;
+    color:hsl(25, 97%, 53%);
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+
+.container-1 {
+    max-width: 23rem;
+    max-height: 19.30rem;
+    background-color: hsl(213, 19%, 18%);
+    position: absolute;
+    top: 40%;
+    left: 38%;
+    transform: translate(-10%, -30%);
+    border-radius: 15px;
+    align-items: center;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.img-com {
+    width: 8.875rem;
+    height: 6.875rem;
+    align-items: center;
+    margin-top: auto;
+}
+
+.selected {
+    width: 190px;
+    height: 28px;
+    border-radius: 22px;
+    background: hsl(213, 19%, 23%);
+    text-align: center;
+    margin-top: 2rem;
+}
+
+span {
+    font-size: 15px;
+    color: hsl(25, 97%, 53%);
+    font-weight: 400;
+    font-family: 'Outfit', sans-serif;
+}
+
+h2 {
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: 'Outfit', sans-serif;
+    margin-top: 2rem;
+}
+
+.p-align {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Outfit', sans-serif;
+    color: hsl(217, 12%, 63%);
+    margin-top: -13px;
+    text-align: center;
+}
+
+#rating-complete {
+    display: none;
+}
+
+
+
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    margin-top: 605px;
+}
+    .attribution a { color: hsl(228, 45%, 44%); }
